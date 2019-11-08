@@ -1,0 +1,723 @@
+@font-face {
+    font-family: "BigJohn";
+    src: url("fonts/BIGJOHN.eot"); /* IE9 Compat Modes */
+    src: url("fonts/BIGJOHN.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("fonts/BIGJOHN.otf") format("opentype"), /* Open Type Font */
+      url("fonts/BIGJOHN.svg") format("svg"), /* Legacy iOS */
+      url("fonts/BIGJOHN.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("fonts/BIGJOHN.woff") format("woff"), /* Modern Browsers */
+      url("fonts/BIGJOHN.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amble-Regular";
+    src: url("fonts/Amble-Regular.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Amble-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("fonts/Amble-Regular.otf") format("opentype"), /* Open Type Font */
+      url("fonts/Amble-Regular.svg") format("svg"), /* Legacy iOS */
+      url("fonts/Amble-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("fonts/Amble-Regular.woff") format("woff"), /* Modern Browsers */
+      url("fonts/Amble-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Amble-Light";
+    src: url("fonts/Amble-Light.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Amble-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("fonts/Amble-Light.otf") format("opentype"), /* Open Type Font */
+      url("fonts/Amble-Light.svg") format("svg"), /* Legacy iOS */
+      url("fonts/Amble-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("fonts/Amble-Light.woff") format("woff"), /* Modern Browsers */
+      url("fonts/Amble-Light.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Amble-Bold";
+    src: url("fonts/Amble-Bold.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Amble-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("fonts/Amble-Bold.otf") format("opentype"), /* Open Type Font */
+      url("fonts/Amble-Bold.svg") format("svg"), /* Legacy iOS */
+      url("fonts/Amble-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("fonts/Amble-Bold.woff") format("woff"), /* Modern Browsers */
+      url("fonts/Amble-Bold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Avenir-Light";
+    src: url("fonts/Avenir35Light.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Avenir35Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("fonts/Avenir35Light.otf") format("opentype"), /* Open Type Font */
+      url("fonts/Avenir35Light.svg") format("svg"), /* Legacy iOS */
+      url("fonts/Avenir35Light.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("fonts/Avenir35Light.woff") format("woff"), /* Modern Browsers */
+      url("fonts/Avenir35Light.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "BigJohn";
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+h2:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 86px;
+    height: 2px;
+    bottom: -75px;
+    background: #000000;
+    left: 50%;
+    margin-left: -43px;
+}
+
+.description {
+    margin: 0 auto; 
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: "Amble";
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.no-flex {
+    display: block;
+}
+
+/*header*/
+
+#header {
+    padding: 60px 0;
+}
+
+.burger {
+    padding-bottom: 112px;
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+.header-text {
+    text-align: center;
+}
+
+h1 {
+    font-family: "BigJohn";
+    font-weight: regular;
+    font-size: 48px;
+    color: #ffffff;
+    position: relative;
+}
+
+#header h1:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 86px;
+    height: 2px;
+    bottom: -21px;
+    background: #ffffff;
+    left: 50%;
+    margin-left: -43px;
+}
+
+#header p {
+    margin: 45px 10px 143px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.mouse {
+    text-align: center;  
+}
+
+.mause {
+    color: #ffffff;
+}
+
+/*intro*/
+
+#intro, #work, #about, #options, #contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#intro {
+    text-align: center;
+}
+
+/*creative*/
+
+#creative {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#creative a {
+    padding: 15px 50px;
+    border: 2.5px solid #ffffff;
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+#creative a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+/*work*/
+
+#work {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 75px; 
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list a {
+   font-family: "Slim Joe";
+   text-decoration: none;
+   color: #575353;
+   text-transform: uppercase;
+}
+
+.list li {
+    padding-bottom: 20px;
+}
+
+.list a:hover {
+    color: #000000;
+    font-size: 18px;
+    font-family: "BigJohn";
+}
+
+a.active {
+    color: #313131;
+    font-family: "BigJohn";
+}
+
+.work-picture img {
+    padding-bottom: 20px;
+}
+
+.work-picture {
+    padding: 80px 0;
+}
+
+#work button {
+    padding: 10px 45px;
+    border: 2.5px solid #000000;
+    text-transform: uppercase;
+    background: #ffffff;
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#work button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+/*help*/
+
+#help {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help a {
+    padding: 15px 50px;
+    border: 2.5px solid #ffffff;
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#help a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+/*clients*/
+
+#clients {
+    text-align: center;
+    padding: 120px 0 140px;
+}
+
+/*about*/
+
+#about {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.team {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team img {
+    margin-bottom: 20px;
+    flex-basis: 15%;
+}
+
+.hiring {
+    border: 1px solid #000000;
+    flex-basis: 15%;
+    padding: 100px 40px 58px;
+    margin-bottom: 20px;
+}
+
+.hiring h3 {
+    font-size: 24px;
+    font-family: "BigJohn";
+    position: relative;
+    margin-bottom: 87px;
+    padding: 0 10px;
+}
+
+.hiring h3:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 86px;
+    height: 2px;
+    bottom: -43px;
+    background: #000000;
+    left: 50%;
+    margin-left: -43px;
+}
+
+.hiring button {
+    padding: 20px 55px 15px;
+    border: 2.5px solid #000000;
+    background: #ffffff;
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.hiring button:hover {
+    color: #ffffff;
+    background: #000000;
+}
+
+/*video*/
+
+
+/*options*/
+
+#options {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#options h3 {
+    margin-top: 35px;
+}
+
+.iphone {
+    margin-top: 100px;
+}
+
+.iphone-details {
+    margin-bottom: 70px;
+}
+
+.iphone-details h3 {
+    margin-bottom: 45px;
+}
+
+/*desk*/
+
+#desk {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desk a {
+    padding: 15px 50px;
+    border: 2.5px solid #ffffff;
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#desk a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+/*contact*/
+
+#contact {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.contact-intro {
+    padding-bottom: 110px;
+}
+
+.location-left {
+    padding: 120px 0;
+    background: #f2f2f2;
+}
+
+.location-left h3 {
+    font-family: "BigJohn";
+    font-size: 23px;
+}
+
+address {
+    display: block;
+    padding: 45px 0;
+    font-family: "Amble";
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.social-media a {
+    margin: 10px;
+    color: #222222;
+}
+
+.social-media a:hover {
+    opacity: 0.5;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 25px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #575353;
+    background: transparent;
+    text-transform: capitalize;
+    font-family: "Amble";
+    font-size: 18px;
+  }
+
+input[type=text]:focus {
+    outline: none;
+}
+
+
+.right {
+    padding: 100px 50px 160px;   
+  }
+
+.submit {
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 30px;
+    border: 2px solid #000000;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+/*footer*/
+
+footer {
+    padding: 95px 0;
+    text-align: center;
+}
+
+footer img {
+    padding: 60px 10px;
+    width: auto;
+}
+
+.copyright {
+    font-family: "Amble";
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.author {
+    color: #d87843;
+}
+
+  /*background*/
+
+  #header {
+      background:  no-repeat center/cover url(image/1background.png);
+  }
+
+  #creative {
+      background:  no-repeat center/cover url(image/2background.png);
+  }
+
+  #help {
+      background:  no-repeat center/cover url(image/3background.png);
+  }
+
+  #clients {
+      background:  no-repeat center/cover url(image/clients.png);
+  }
+
+  #desk {
+      background:  no-repeat center/cover url(image/5background.png);
+  }
+
+  .location {
+      background: no-repeat center/cover url(image/left-background.png);
+  }
+
+  .right {
+     background:  no-repeat center/cover url(image/right-background.png);
+  }
+
+  footer {
+      background:  no-repeat center/cover url(image/footer-background.png);
+  }
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+    #header p {
+        width: 630px;
+        margin: 45px auto;
+    }
+
+    #intro p {
+        width: 753px;
+    }
+
+    .description {
+        width: 740px;
+    } 
+
+    .iphone-details {
+       width: 333px;
+       margin: 0 auto;
+       padding-bottom: 80px;
+    }
+
+    .work-picture {
+        flex-direction: row;
+    }
+
+    .contact-wrapper {
+        display: flex;
+    }
+
+    .location-left {
+        flex-basis: 33.3333%;
+    }
+
+    .right {
+        flex-basis: 66.666%;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1170px;
+    }
+    
+    .list {
+        margin: 0;
+        text-align: center;
+    }
+
+    .list li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 0;
+    }  
+
+    .work-picture img:nth-child(odd) {
+        margin-right: 30px;
+    }
+
+    .images-logo img {
+        margin: 0 15px;
+    }
+
+    .team img {
+        margin-right: 10px;
+    }
+    
+}    
+   
+@media (min-width: 1200px) {
+    .container {
+        padding: 0;
+    }   
+
+    #header {
+        height: 900px;
+    }
+
+    #creative {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #creative a {
+        padding: 35px 100px;
+        border: 2.5px solid #ffffff;
+        font-family: "Amble";
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .work-picture {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .work-picture img {
+        flex-basis: 30%;
+    }
+
+    .work-picture img:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    iframe {
+        height: 500px;
+    }
+
+    .iphone-details {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+
+    .location-left {
+        padding: 120px 0 110px;
+        text-align: right;
+    
+    }
+
+    .location-left-in {
+        text-align: left;
+        width: 400px;
+        display: inline-block;
+    }
+    
+    .right {
+        padding: 100px 0 110px 103px;   
+        text-align: left;
+    }
+
+    .location-right-in {
+        display: inline-block;
+        width: 770px;
+    }
+
+    .right-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-details input {
+        width: 45%;
+    }
+
+    .send {
+        text-align: right;
+    }
+
+    .send input {
+        display: inline-block;
+    }
+
+}
